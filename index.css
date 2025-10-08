@@ -18,17 +18,17 @@ body {
 
 .wrapper {
   background: #1F2937;
-  padding: 15px 20px;
+  padding: 30px 40px;
   max-width: 70%;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 30px;
 }
 
 h1 {
   color: #e2ecf3;
-  font-size: 30px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -40,19 +40,19 @@ span {
 p, .form-row span {
   font-family: "Inter", sans-serif;
   color: #D5D4D8;
-  font-size: 14px;
-  margin: 5px 0;
+  font-size: 28px;
+  margin: 10px 0;
 }
 
 .password-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 .form-row {
   display: flex;
   /* align-items: center; */
-  gap: 20px;
+  gap: 50px;
 }
 
 /* Left side — label + input stacked vertically */
@@ -60,19 +60,16 @@ p, .form-row span {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 6px
-}
-
-.stacked-label input {
-  width: 280px;
+  gap: 20px;
 }
 
 /* Right side — text and checkbox side by side */
 .checkbox-label {
   display: flex;
-  align-items: flex-start;
+  justify-content: flex-start;
   gap: 0px;
   cursor: pointer;
+  margin-left: -60px;
 }
 
 .form-row span {
@@ -88,11 +85,11 @@ p, .form-row span {
   color: #efb619;
   border-radius: 6px;
   font-family: "Inter", sans-serif;
-  margin-top: 5px;
-  line-height: 15px;
-  font-size: 10px;
-  padding: 5px;
-  width: 46%;
+  margin-top: 10px;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 10px;
+  width: 52%;
 }
 
 input::-webkit-outer-spin-button,
@@ -115,15 +112,15 @@ input[type=number]:focus {
 
 #symbols {
   background-color: transparent;
-  width: 18px;
-  height: 18px;
+  width: 36px;
+  height: 36px;
   border-radius: 4px;
   display: inline-block;
   position: relative;
   cursor: pointer;
   transition: all 0.2s ease;
   accent-color: #f4b400;
-  left: -50px;
+  left: -100px;
 }
 
 /* when checked */
@@ -137,10 +134,11 @@ input[type=number]:focus {
 button {
   background-color: #EFB619;
   border-radius: 10px;
-  padding: 5px 10px;
-  margin-top: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;
   cursor: pointer;
   border: none;
+  font-size: 30px;
 }
 
 hr {
