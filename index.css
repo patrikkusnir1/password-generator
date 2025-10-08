@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1C1C1C;
+  font-family: "Bakbak One", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background: #1F2937;
+  padding: 15px 20px;
+  max-width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #e2ecf3;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+span {
+  color: #efb619;
+  display: block;
+}
+
+p, .form-row span {
+  font-family: "Inter", sans-serif;
+  color: #D5D4D8;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.password-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  /* align-items: center; */
+  gap: 20px;
+}
+
+/* Left side — label + input stacked vertically */
+.stacked-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px
+}
+
+.stacked-label input {
+  width: 280px;
+}
+
+/* Right side — text and checkbox side by side */
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0px;
+  cursor: pointer;
+}
+
+.form-row span {
+  margin: 0;
+}
+
+
+#password-el1,
+#password-el2,
+#characters {
+  background-color: #273549;
+  border: 1px solid #2F3E53;
+  color: #efb619;
+  border-radius: 6px;
+  font-family: "Inter", sans-serif;
+  margin-top: 5px;
+  line-height: 15px;
+  font-size: 10px;
+  padding: 5px;
+  width: 46%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=number]:focus {
+  outline: none;
+  border: 1px solid #1C1C1C;
+  box-shadow: none;
+}
+
+#symbols {
+  background-color: transparent;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  accent-color: #f4b400;
+  left: -50px;
+}
+
+/* when checked */
+
+#symbols:checked {
+  background-color: #f4b400;
+  border-color: #f4b400;
+  color: white
+}
+
+button {
+  background-color: #EFB619;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #2F3E53;
+  margin: 1em 0;
+  padding: 0;
+}
